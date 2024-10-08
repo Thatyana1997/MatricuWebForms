@@ -14,4 +14,4 @@ insert into Usuarios (NICKNAME, CORREO, CONTRASENNA, ROL, ADICIONADOPOR, FECHAAD
 values ('admin', 'kbrenesc@castrocarazo.ac.cr', 'gallopinto2024*', 'A', 'sysadmin', getdate());
  
 
-select * from Usuarios;
+select * from Usuarios where NICKNAME ='admin' and CONTRASENNA ='gallopinto2024*'
